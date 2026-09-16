@@ -20,7 +20,7 @@ Qual é a função do display: flex?
 A propriedade display: flex é utilizada para criar layouts flexíveis, permitindo que os elementos dentro de um box sejam organizados de forma eficiente e responsiva.
 
 Qual foi a função do max-width no projeto?
-definir a largura máxima de algo
+definir a largura máxima de algum elemento
 
 Qual foi a principal dificuldade encontrada?
 fazer a responsividade/ usar media query
