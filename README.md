@@ -19,6 +19,9 @@ significa que a página funcionará em diversos tamanhos de tela
 Qual é a função do display: flex?
 A propriedade display: flex é utilizada para criar layouts flexíveis, permitindo que os elementos dentro de um box sejam organizados de forma eficiente e responsiva.
 
+Para que serve uma Media Query?
+A função do media query no CSS é adaptar o layout e o estilo de uma página para diferentes tamanhos de tela, resoluções e tipos de dispositivos, tornando o site responsivo.
+
 Qual foi a função do max-width no projeto?
 definir a largura máxima de algum elemento
 
