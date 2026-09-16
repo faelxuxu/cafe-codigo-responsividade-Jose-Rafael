@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c38147;
+}
+
+.navbar {
+    background-color: #636B2F;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cafe {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8d4925;
+    text-decoration: none;
+}
+
+.codigo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-links a {
+    margin: 5px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    display: flex;
+    gap: 20px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    filter: none;
+}
+
+.hero h1 {
+    font-size: clamp(32px, 8vw, 110px);
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    line-height: 1.1;
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+hr {
+    border: solid 1px #8d4925;
+    background-color: #8d4925;
+    align-content: center;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.hero p {
+    font-size: clamp(20px, 4vw, 60px);
+    color: #8d4925;
+    align-items: center;
+    align-content: center;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.options-tit {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.options {
+    background-color: #c38147;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.opt-1,
+.opt-2,
+.opt-3,
+.opt-4,
+.opt-5 {
+    background-color: #8d4925;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 1 1 260px;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.all-opt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.options p {
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.opt-1 {
+    background-image: url(coffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opt-2 {
+    background-image: url(coffee-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opt-3 {
+    background-image: url(bolo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opt-4 {
+    background-image: url(salgado-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opt-5 {
+    background-image: url(salgado-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opt-6 {
+    background-image: url(salgado-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opt-7 {
+    background-image: url(bolo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wpp {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    color: #636B2F;
+    background-color: bisque;
+    font-weight: 800;
+    padding: 20px;
+    max-width: 400px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    min-height: 100px;
+    background-color: #636B2F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: lighter;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 0;
+    padding: 15px;
+    color: #fff;
+}
+
+.fot-text {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+}
+
+.pedir {
+    color: #fff;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px;
+    width: fit-content;
+}
+
+/* ==========================
+   RESPONSIVO: TABLET E MOBILE
+   (mobile-first via max-width)
+   ========================== */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        height: auto;
+        padding: 40px 10px;
+    }
+
+
+
+    .options {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .all-opt {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .opt-1,
+    .opt-2,
+    .opt-3,
+    .opt-4,
+    .opt-5 {
+        min-width: 50vh;
+        max-width: 50vh;
+        height: 50vh;
+    }
+
+    .wpp {
+        width: 50%;
+        max-width: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-links a {
+        font-size: 16px;
+        margin: 5px 8px;
+    }
+
+    .hero h1 {
+        margin: 0 10px;
+    }
+
+    .opt-1,
+    .opt-2,
+    .opt-3,
+    .opt-4,
+    .opt-5 {
+        height: 180px;
+        font-size: 18px;
+    }
+}
